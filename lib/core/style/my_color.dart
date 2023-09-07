@@ -3,6 +3,7 @@ import 'package:hexcolor/hexcolor.dart';
 
 class MyColor {
   static Color red = HexColor("#EF3349");
+  static Color white = HexColor("#FFFFFF");
   static Color black = HexColor("#191919");
   static Color primary = HexColor("FCD7BD");
   static Color yellow = HexColor("#F5BF43");

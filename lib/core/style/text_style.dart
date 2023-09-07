@@ -19,10 +19,24 @@ class TextStyles {
     color: MyColor.black,
   );
 
+  static TextStyle regular20 = TextStyle(
+    fontFamily: myFont,
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: MyColor.black,
+  );
+
   static TextStyle semiBold = TextStyle(
     fontFamily: myFont,
     fontSize: 24,
     fontWeight: FontWeight.w600,
+    color: MyColor.black,
+  );
+
+  static TextStyle Bold30 = TextStyle(
+    fontFamily: myFont,
+    fontSize: 30,
+    fontWeight: FontWeight.w700,
     color: MyColor.black,
   );
 }

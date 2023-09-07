@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:funkids/screen/home/home.dart';
 import 'package:funkids/screen/intro/onboard.dart';
 import 'package:funkids/screen/intro/splash.dart';
 

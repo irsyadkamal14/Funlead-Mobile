@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:funkids/core/style/my_color.dart';
 import 'package:funkids/core/style/text_style.dart';
+import 'package:funkids/screen/login/signin.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class Onboard extends StatelessWidget {
@@ -41,8 +42,9 @@ class Onboard extends StatelessWidget {
                 scale: 2,
               )),
           Positioned(
-            child:
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
               Center(
                 child: Image.asset(
                   "assets/images/paktua.png",
@@ -64,26 +66,65 @@ class Onboard extends StatelessWidget {
                   style: TextStyles.light,
                 ),
               ),
-              Stack(
-                alignment: Alignment.center,
-                children: [
-                  Container(
-                    color: Colors.red,
-                    width: 340,
-                    height: 50,
-                  ),
-                  Positioned(
-                    top: 8,
-                    child: Container(
-                      width: 300,
-                      height: 50,
-                      color: Colors.amber,
+              Container(
+                height: 70,
+                width: 340,
+                child: Stack(
+                  alignment: Alignment.topCenter,
+                  children: [
+                    Positioned(
+                      top: 10,
+                      child: Container(
+                        width: 340,
+                        height: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15),
+                            color: HexColor("EEC66B"),
+                            boxShadow: [
+                              BoxShadow(
+                                  color: HexColor("B99951"),
+                                  offset: Offset(0, 5),
+                                  blurRadius: 0,
+                                  spreadRadius: 0)
+                            ]),
+                      ),
                     ),
-                  ),
-                ],
-              )
-            ]),
-          )
+                    Container(
+                      width: 333,
+                      height: 50,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          color: HexColor("F5BF43"),
+                          boxShadow: [
+                            BoxShadow(
+                                color: HexColor("C89B33").withOpacity(1),
+                                offset: Offset(0, 5),
+                                blurRadius: 0,
+                                spreadRadius: 0)
+                          ]),
+                      child: TextButton(
+                          onPressed: () {
+                            // pindah ke halaman simple
+                            Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => SignIn()));
+                          },
+                          style: TextButton.styleFrom(
+                              primary: HexColor("C89B33"),
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(15))),
+                          child: Text(
+                            "MULAI",
+                            style: TextStyles.regular20
+                                .copyWith(color: Colors.white),
+                          )),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ))
         ],
       ),
     ));
