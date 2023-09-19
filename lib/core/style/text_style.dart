@@ -19,6 +19,13 @@ class TextStyles {
     color: MyColor.black,
   );
 
+  static TextStyle lightMd = TextStyle(
+    fontFamily: myFont,
+    fontSize: 14,
+    fontWeight: FontWeight.w300,
+    color: MyColor.black,
+  );
+
   static TextStyle regular20 = TextStyle(
     fontFamily: myFont,
     fontSize: 20,
@@ -37,6 +44,13 @@ class TextStyles {
     fontFamily: myFont,
     fontSize: 30,
     fontWeight: FontWeight.w700,
+    color: MyColor.black,
+  );
+
+  static TextStyle titleBalo = TextStyle(
+    fontFamily: myFont,
+    fontSize: 45,
+    fontWeight: FontWeight.w400,
     color: MyColor.black,
   );
 }
