@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:funkids/core/style/my_color.dart';
 import 'package:funkids/core/style/text_style.dart';
 import 'package:funkids/screen/login/signin.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -52,21 +51,21 @@ class Onboard extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(top: 35),
+                padding: const EdgeInsets.only(top: 35),
                 child: Text(
                   "Hallo Sahabat Funleds!",
                   style: TextStyles.semiBold,
                 ),
               ),
               Container(
-                padding: EdgeInsets.fromLTRB(50, 5, 50, 35),
+                padding: const EdgeInsets.fromLTRB(50, 5, 50, 35),
                 child: Text(
                   textAlign: TextAlign.center,
                   "Aplikasi Mobabu, platform pembelajaran bagian tubuh menggunakan media monopoly, berbasis Aughment Reality",
                   style: TextStyles.light,
                 ),
               ),
-              Container(
+              SizedBox(
                 height: 70,
                 width: 340,
                 child: Stack(
@@ -83,7 +82,7 @@ class Onboard extends StatelessWidget {
                             boxShadow: [
                               BoxShadow(
                                   color: HexColor("B99951"),
-                                  offset: Offset(0, 5),
+                                  offset: const Offset(0, 5),
                                   blurRadius: 0,
                                   spreadRadius: 0)
                             ]),
@@ -98,7 +97,7 @@ class Onboard extends StatelessWidget {
                           boxShadow: [
                             BoxShadow(
                                 color: HexColor("C89B33").withOpacity(1),
-                                offset: Offset(0, 5),
+                                offset: const Offset(0, 5),
                                 blurRadius: 0,
                                 spreadRadius: 0)
                           ]),
@@ -108,10 +107,10 @@ class Onboard extends StatelessWidget {
                             Navigator.pushReplacement(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SignIn()));
+                                    builder: (context) => const SignIn()));
                           },
                           style: TextButton.styleFrom(
-                              primary: HexColor("C89B33"),
+                              foregroundColor: HexColor("C89B33"),
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(15))),
                           child: Text(

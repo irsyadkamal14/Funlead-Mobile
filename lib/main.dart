@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyHomepage(),
     );
@@ -32,13 +32,13 @@ class _MyHomepageState extends State<MyHomepage> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 3),
+        const Duration(seconds: 3),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => Onboard())));
+            context, MaterialPageRoute(builder: (context) => const Onboard())));
   }
 
   @override
   Widget build(BuildContext context) {
-    return Splash();
+    return const Splash();
   }
 }

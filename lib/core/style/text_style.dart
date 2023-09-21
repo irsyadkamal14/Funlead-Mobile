@@ -26,6 +26,13 @@ class TextStyles {
     color: MyColor.black,
   );
 
+  static TextStyle normalBold = TextStyle(
+    fontFamily: myFont,
+    fontSize: 15,
+    fontWeight: FontWeight.w800,
+    color: MyColor.black,
+  );
+
   static TextStyle regular20 = TextStyle(
     fontFamily: myFont,
     fontSize: 20,
@@ -40,6 +47,7 @@ class TextStyles {
     color: MyColor.black,
   );
 
+  // ignore: non_constant_identifier_names
   static TextStyle Bold30 = TextStyle(
     fontFamily: myFont,
     fontSize: 30,

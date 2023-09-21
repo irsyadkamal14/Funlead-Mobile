@@ -8,12 +8,12 @@ class SignUp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _screenSize = MediaQuery.of(context).size.height;
+    final screenSize = MediaQuery.of(context).size.height;
     return Scaffold(
       body: SingleChildScrollView(
         reverse: false,
-        child: Container(
-          height: _screenSize,
+        child: SizedBox(
+          height: screenSize,
           child: Stack(
             children: [
               Positioned(
@@ -59,14 +59,14 @@ class SignUp extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(left: 25.0, right: 25.0),
                         child: Container(
-                          padding: EdgeInsets.only(left: 19, top: 5),
+                          padding: const EdgeInsets.only(left: 19, top: 5),
                           decoration: BoxDecoration(
-                            borderRadius: new BorderRadius.circular(15.0),
+                            borderRadius: BorderRadius.circular(15.0),
                             color: HexColor("F3F3F3"),
                             boxShadow: [
                               BoxShadow(
                                   color: HexColor("000000").withOpacity(0.12),
-                                  offset: Offset(0, 2),
+                                  offset: const Offset(0, 2),
                                   blurRadius: 1,
                                   spreadRadius: 0)
                             ],
@@ -83,14 +83,14 @@ class SignUp extends StatelessWidget {
                         padding: const EdgeInsets.only(
                             left: 25.0, right: 25.0, top: 14.0),
                         child: Container(
-                          padding: EdgeInsets.only(left: 19, top: 5),
+                          padding: const EdgeInsets.only(left: 19, top: 5),
                           decoration: BoxDecoration(
-                            borderRadius: new BorderRadius.circular(15.0),
+                            borderRadius: BorderRadius.circular(15.0),
                             color: HexColor("F3F3F3"),
                             boxShadow: [
                               BoxShadow(
                                   color: HexColor("000000").withOpacity(0.12),
-                                  offset: Offset(0, 2),
+                                  offset: const Offset(0, 2),
                                   blurRadius: 1,
                                   spreadRadius: 0)
                             ],
@@ -107,14 +107,14 @@ class SignUp extends StatelessWidget {
                         padding: const EdgeInsets.only(
                             left: 25.0, right: 25.0, top: 14.0),
                         child: Container(
-                          padding: EdgeInsets.only(left: 19, top: 5),
+                          padding: const EdgeInsets.only(left: 19, top: 5),
                           decoration: BoxDecoration(
-                            borderRadius: new BorderRadius.circular(15.0),
+                            borderRadius: BorderRadius.circular(15.0),
                             color: HexColor("F3F3F3"),
                             boxShadow: [
                               BoxShadow(
                                   color: HexColor("000000").withOpacity(0.12),
-                                  offset: Offset(0, 2),
+                                  offset: const Offset(0, 2),
                                   blurRadius: 1,
                                   spreadRadius: 0)
                             ],
@@ -131,14 +131,14 @@ class SignUp extends StatelessWidget {
                         padding: const EdgeInsets.only(
                             left: 25.0, right: 25.0, top: 14.0),
                         child: Container(
-                          padding: EdgeInsets.only(left: 19, top: 5),
+                          padding: const EdgeInsets.only(left: 19, top: 5),
                           decoration: BoxDecoration(
-                            borderRadius: new BorderRadius.circular(15.0),
+                            borderRadius: BorderRadius.circular(15.0),
                             color: HexColor("F3F3F3"),
                             boxShadow: [
                               BoxShadow(
                                   color: HexColor("000000").withOpacity(0.12),
-                                  offset: Offset(0, 2),
+                                  offset: const Offset(0, 2),
                                   blurRadius: 1,
                                   spreadRadius: 0)
                             ],
@@ -151,10 +151,10 @@ class SignUp extends StatelessWidget {
                           )),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 31,
                       ),
-                      Container(
+                      SizedBox(
                         height: 70,
                         width: 340,
                         child: Stack(
@@ -171,7 +171,7 @@ class SignUp extends StatelessWidget {
                                     boxShadow: [
                                       BoxShadow(
                                           color: HexColor("B99951"),
-                                          offset: Offset(0, 5),
+                                          offset: const Offset(0, 5),
                                           blurRadius: 0,
                                           spreadRadius: 0)
                                     ]),
@@ -187,7 +187,7 @@ class SignUp extends StatelessWidget {
                                     BoxShadow(
                                         color:
                                             HexColor("C89B33").withOpacity(1),
-                                        offset: Offset(0, 5),
+                                        offset: const Offset(0, 5),
                                         blurRadius: 0,
                                         spreadRadius: 0),
                                   ]),
@@ -196,10 +196,11 @@ class SignUp extends StatelessWidget {
                                     Navigator.pushReplacement(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (context) => Home()));
+                                            builder: (context) =>
+                                                const Home()));
                                   },
                                   style: TextButton.styleFrom(
-                                      primary: HexColor("C89B33"),
+                                      foregroundColor: HexColor("C89B33"),
                                       shape: RoundedRectangleBorder(
                                           borderRadius:
                                               BorderRadius.circular(15))),
@@ -226,7 +227,7 @@ class SignUp extends StatelessWidget {
                                 Colors.white
                               ])),
                             ),
-                            Text("Don’t have an account?"),
+                            const Text("Don’t have an account?"),
                             Container(
                               width: 118,
                               height: 3,
@@ -254,7 +255,7 @@ class SignUp extends StatelessWidget {
                                   "assets/icons/google.png",
                                   scale: 2,
                                 )),
-                            SizedBox(
+                            const SizedBox(
                               width: 16,
                             ),
                             Container(
