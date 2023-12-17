@@ -1,16 +1,30 @@
-# funkids
+<h1 align="center">👼FUNKIDS - Fun Learning Kids🫰</h1>
+<h3 align="center">Memenuhi Mata Kuliah Pemrograman Game</h3>
 
-A new Flutter project.
+## Tentang Kami - Kelompok 8
+- 👨🏼‍🏫 Ahmad Danang Surya Wicaksana - 21050974014
+- 👨‍🔧 Galista Haidir - 21050974064
+- 👨🏼‍💻 Muhamad Irsyad Kamal	Fannan - 21050974069
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📱 Tentang Aplikasi :
+FUNLEDS (FUN Learning kiDS) adalah sebuah aplikasi edukatif yang dirancang khusus untuk anak-anak usia dini. Aplikasi ini bertujuan untuk memberikan pengalaman belajar yang tidak hanya informatif, tetapi juga menghibur, interaktif, dan sangat menyenangkan. Didirikan dengan penuh dedikasi, FUNLEDS menghadirkan pendekatan inovatif terhadap pembelajaran anak-anak, dengan fokus kuat pada pengembangan keterampilan mereka sambil mereka menikmati setiap momen. 
 
-A few resources to get you started if this is your first Flutter project:
+Aplikasi ini menawarkan beragam fitur yang disesuaikan dengan kebutuhan perkembangan anak, mulai dari pelajaran dasar hingga materi yang lebih kompleks, yang disajikan dalam format yang mudah dicerna. FUNLEDS menggabungkan elemen-elemen permainan dan aktivitas interaktif, sehingga anak-anak tidak hanya belajar, tetapi juga berpartisipasi aktif dalam proses belajar mereka.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🕹 Fungsi/Fitur Game :
+   1. Augmented Reality - Fitur utama untuk mewujudkan objek seperti nyata
+   2. Quiz - Game ini terdapat quiz untuk evaluasi diri
+   3. Backsound - Memberikan suasana senang dan ceria
+   4. Assets - Tampilan menarik untuk anak kecil
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Alat Yang Digunakan :
+- Flutter (https://flutter.dev/)
+- Firebase (https://firebase.google.com/?hl=id)
+- Unity 3D for Augmented Reality (https://developer.vuforia.com/)
+ 
+## 🏢 Tentang Prodi S1 Pendidikan Teknologi Informasi - UNESA:
+### https://pendidikan-ti.ft.unesa.ac.id/
+
+## 📸 ScreenShoot:
+![Frame 14](https://user-images.githubusercontent.com/98598266/207757789-3030f4ac-8bfb-4e42-8c88-37693893ebbf.png)
