@@ -24,7 +24,8 @@ Aplikasi ini menawarkan beragam fitur yang disesuaikan dengan kebutuhan perkemba
 - Unity 3D for Augmented Reality (https://developer.vuforia.com/)
  
 ## 🏢 Tentang Prodi S1 Pendidikan Teknologi Informasi - UNESA:
-### https://pendidikan-ti.ft.unesa.ac.id/
+   Mari kunjungi kami di -> https://pendidikan-ti.ft.unesa.ac.id/
 
 ## 📸 ScreenShoot:
-![Frame 14](https://user-images.githubusercontent.com/98598266/207757789-3030f4ac-8bfb-4e42-8c88-37693893ebbf.png)
+![Frame 2](https://github.com/irsyadkamal14/Funlead-Mobile/assets/98598266/18401cad-9222-414f-9e9f-05d436c84d1f)
+
