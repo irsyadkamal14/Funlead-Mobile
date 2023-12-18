@@ -1,4 +1,4 @@
-<h1 align="center">👼FUNLIDS - Fun Learning Kids🫰</h1>
+<h1 align="center">👼FUNLEADS - Fun Learning Kids🫰</h1>
 <h3 align="center">Memenuhi Mata Kuliah Pemrograman Game</h3>
 
 ## Tentang Kami - Kelompok 8
